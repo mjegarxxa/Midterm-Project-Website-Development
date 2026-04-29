@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="OTHER CSS FILE/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>    
+<body>
+    <div class="container">
+        <h1>Confirm Your Payment</h1>
+        <div class="first-part">
+            <div class="owner">
+                <h3>Owner</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="Name">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password" placeholder="0000">
+                </div>
+            </div>
+        </div>
+        <div class="second-part">
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+                </div>
+            </div>
+        </div>
+        <div class="third-part">
+            <h3>Expiration Date</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sept">Sept</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="years" id="years">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="IMAGES/Mastercard-Symbol.jpg" alt="mastercard">
+                    <img src="IMAGES/3074e338-f69a-489f-9e37-683a14469328-Visa-Logo.png" alt="visa">
+                    <img src="IMAGES/GCash-Logo.png" alt="gcash">
+                    <img src="IMAGES/106425.png" alt="maya">
+                </div>
+            </div>
+        </div>
+        <a href="OTHER HTML FILE/thanks.html">Confirm Payment</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("IMAGES/2837451.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    width: 500px;
+    height: 50vh;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid goldenrod;
+}
+.icon{
+    height: 25vh;
+    width: 100%;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.fa-circle-check{
+    font-size: 70px;
+    margin-top: 7vh;
+    color: goldenrod;
+}
+h2{
+    margin-top: 20px;
+}
+p{
+    margin-top: 20px;
+    padding: 0px 10px;
+    color: white;
+    font-size: 25px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 35px;
+    color: white;
+    font-size: 20px;
+    background-color: goldenrod;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: gold;
+}
