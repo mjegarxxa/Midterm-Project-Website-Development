@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(2837451.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    width: 750px;
+    height: 500px;
+    border: 2px solid goldenrod;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+}
+.container h1{
+    text-align: center;
+}
+.first-part{
+    display: flex;
+}
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+.input-field{
+    border: 2px solid goldenrod;
+}
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection select{
+    padding: 10px 20px;
+}
+a{
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: gold;
+}
+
+.cards img{
+    width: 100px;
+    align-items: center;
+}
